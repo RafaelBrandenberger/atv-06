@@ -1,0 +1,10 @@
+int main() {
+int contador = 1;
+int soma = 0;
+while(contador <= 10) {
+  soma += contador;
+  contador++;
+}
+printf(soma);
+return 0;
+}
